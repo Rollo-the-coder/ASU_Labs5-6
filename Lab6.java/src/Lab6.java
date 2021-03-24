@@ -11,10 +11,10 @@ class Lab6 {
 		int number;
         
         // for loop to check 1 - 100,000 for prime palindrome numbers. Starts at 2 since one is not a prime palindrome
-        for (number = 2; number <= 100000; number++) {
+        for (number = 1; number <= 100000; number++) {
 			if (isPrime(number) == true && isPalindrome(number) == true) {
 				primePalindromes++;
-                //System.out.print(number + ",");
+                System.out.print(number + ",");
 			}
 		}
         System.out.println("There is " + primePalindromes + " prime Palindromes in the total of 100,000");
@@ -24,7 +24,7 @@ class Lab6 {
     static boolean isPrime(int num) {
         int i;
         for (i = 2; i <= (num/2); i++) {
-            if (num % i == 0) {
+            if (num % i == 0 || (num == 2)) {
                 return false;
             }            
         }
