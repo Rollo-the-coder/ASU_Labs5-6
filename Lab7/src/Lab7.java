@@ -2,7 +2,7 @@
 //Lab7.java
 //Name : Erik Christian Gotta
 //ASU ID : 1222628953
-//Time taken to complete this lab: 45
+//Time taken to complete this lab: 45 mins
 //========================================
 import java.util.Scanner;
 
