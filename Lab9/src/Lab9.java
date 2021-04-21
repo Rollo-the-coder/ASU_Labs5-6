@@ -3,7 +3,7 @@
 //FILENAME: Lab9.java
 //SPECIFICATION: A program that creates Student objects to fill in name, id, grade with getter and setter mthods.
 //FOR: CSE 110 - Lab #9
-//TIME SPENT: 40 minutes
+//TIME SPENT: 45 minutes
 //-----------------------------------------------------------*/
 
 public class Lab9
